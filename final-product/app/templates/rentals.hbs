@@ -1,0 +1,19 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+  <p>We hope you find exactly what you're looking for in a place to stay.</p>
+  {{#link-to "about" class="button"}}
+    About Us
+  {{/link-to}}
+</div>
+
+{{outlet}}
+
+<!-- {{#each model as |rentalUnit|}}
+  {{rental-listing rental=rentalUnit}}
+{{/each}} -->
+<!--
+In this template, we loop through each object. On each iteration,
+the current object gets stored in a variable called rental.
+ From the rental variable in each step,
+ we create a listing with information about the property. -->
